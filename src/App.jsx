@@ -4,7 +4,7 @@ import { listenToData } from "./utils/listenData";
 
 function App() {
   const handleSaveData = () => {
-    saveData("example", { name: "Test2", value: 1234 });
+    saveData("example", { name: "Test8", value: 12388 });
   };
   useEffect(() => {
     listenToData("example", (data) => {
